@@ -1,0 +1,70 @@
+.main{
+    min-height:80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.main-wrapper{
+    display: flex;
+    /*background-color: tomato;
+   /* border:#b5cac9 thin solid;
+    border-radius: 5px;*/
+}
+.left-side{
+    width:35vw;
+    padding: 1em;
+    padding-top:3em;
+}
+.right-side{
+    width:35vw;
+    height: fit-content;
+    padding: 1em;
+    padding-top:5.2em;
+}
+.top-elements{
+    padding-bottom:0.5em;
+    display: flex;
+    border-bottom: #0b504b 2px solid;
+}
+.badge{
+    margin: 0.2em 0.2em 0 0.2em ;
+    padding:0.2em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #f45528;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.controls{
+    padding-top: 1em;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.script-description{
+    padding: 1em 0;
+    border-bottom: #b5cac9 2px dotted ;
+    border-top: #b5cac9 2px dotted ;
+    font: 1.2em 'Calibri','Trebuchet MS', sans-serif;
+    font-style: italic;
+    color:#0b504b;    
+}
+li{
+    border-bottom: #b5cac9 2px dotted;
+}
+li:hover,li:focus{
+    background-color:#0b504b;
+}
+.listitem-content{
+    widows: 100%;
+    height: 100%;
+    padding: 0.85em;
+    color: #0b504b;
+    font-weight: 600;
+    display: block;
+}
+.listitem-content:hover,.listitem-content:focus{
+    color: #fff;
+}

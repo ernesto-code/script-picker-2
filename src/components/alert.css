@@ -1,0 +1,10 @@
+.alert{
+    padding:10px;
+    border-bottom: #d3dfdf 2px solid;
+    background-color: #fff;
+    text-align: center;
+    font-size: 0.8em;
+    color:#0b504b;
+    font-weight: bold;
+    font-family: 'Calibri','Trebuchet MS', sans-serif;
+}

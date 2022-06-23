@@ -1,0 +1,26 @@
+.header{
+    height: 13vh;
+    background-color:#0b504b;
+    display: flex;
+    justify-content: center;
+    
+}
+.header-text-wrapper{
+    height: fit-content;
+    width:fit-content;
+    margin-top: 1.5em;
+    /*background-color: khaki;*/
+    display: flex;
+}
+.header h1{
+    width:fit-content; 
+    height: inherit;
+    color:#fff;
+    text-transform: uppercase;
+}
+.version{
+    margin-top:1em;
+    padding-left:2px;
+    color:#fff;
+    font-style: italic;
+}
